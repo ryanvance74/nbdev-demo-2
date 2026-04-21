@@ -9,7 +9,7 @@ documentation.
 ## Developer Guide
 
 If you are new to using `nbdev` here are some useful pointers to get you
-started.
+started. TEST
 
 ### Install nbdev_demo_2 in Development mode
 
