@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nbdev-demo-2"
+dynamic = ["version"]
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "ryanvance74", email = "58126311+ryanvance74@users.noreply.github.com"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/ryanvance74/nbdev-demo-2"
+Documentation = "https://ryanvance74.github.io/nbdev-demo-2/"
+
+[project.entry-points.nbdev]
+nbdev_demo_2 = "nbdev_demo_2._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "nbdev_demo_2.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["nbdev_demo_2"]
+
+[tool.nbdev]

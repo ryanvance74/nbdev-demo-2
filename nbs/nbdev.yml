@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev-demo-2"
+  site-url: "https://ryanvance74.github.io/nbdev-demo-2"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/ryanvance74/nbdev-demo-2"
